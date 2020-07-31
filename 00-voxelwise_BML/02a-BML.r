@@ -89,5 +89,5 @@ colnames(ps_ROI) <- levels(dataset$ROI)
 write.csv(ps_ROI,'03-results/ps_ROI.csv')
 
 # Save the entire R workspace.  
-save.image(file="03-results/uncon_v_con_right_insula_10ROIs.RData")
+save.image(file="03-results/results.RData")
 
