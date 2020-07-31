@@ -6,4 +6,6 @@
 
 [02a-BML.r](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/02a-BML.r): Defines the variables of BML, runs BML, and saves the posteriors (as csv files) and the entire R workspce (file ending in .RData)
 
-[02a-BML.stan](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/02a-BML.stan): Defines the BML model used in [02a-BML.r](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/02a-BML.r).
+[02b-BML.stan](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/02b-BML.stan): Defines the BML model used in [02a-BML.r](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/02a-BML.r).
+
+[03-rendering.ipynb](https://github.com/chirag90in/eCON/blob/master/00-voxelwise_BML/03-rendering.ipynb): Computes P+ from the posteriors and renders them an a brain template.
